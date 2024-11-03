@@ -33,6 +33,7 @@ const TodoList = () => {
         <input
           type="text"
           placeholder="new todo"
+          id="newTodo"
           value={todoText}
           onChange={(e) => setTodoText(e.target.value)}
         />
